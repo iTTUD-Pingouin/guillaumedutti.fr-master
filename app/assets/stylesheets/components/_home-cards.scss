@@ -16,6 +16,8 @@
   background-color: white;
   height: 300px;
   margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
   h4 {
     color: white;
     font-weight: bolder;
@@ -27,6 +29,12 @@
 .card-up {
   height: 150px;
   background-size: cover;
+  padding-top: 1px;
+  padding-left: 10px;
+}
+
+.card-down {
+  padding: 15px 40px 0 40px;
 }
 
 
