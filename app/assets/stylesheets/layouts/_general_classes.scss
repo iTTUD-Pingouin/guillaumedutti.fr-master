@@ -5,3 +5,44 @@
 }
 
 
+#pages-banner {
+  margin-top: -70px;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h1 {
+    margin-top: 70px;
+  }
+}
+
+.bloc-text-img {
+  display: flex;
+  margin-top: 50px;
+}
+
+
+.text-part {
+  padding: 0 100px;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.white-wrap {
+  background-color: white;
+  padding-bottom:50px;
+}
+
+@media (max-width: 767px) {
+  .img-part {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text-part {
+  padding: 0 30px;
+  }
+}
