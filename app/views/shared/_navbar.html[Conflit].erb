@@ -10,33 +10,24 @@
 
         <!-- DROPDOWN MES SERVICES --------->
         <div class="dropdown">
-          <%= link_to "Mes services", "/#offres-bloc", class: "navbar-wagon-item navbar-wagon-link dropdown-toggle", id:"dropdownMenuLink"  %>
+          <p class="navbar-wagon-item navbar-wagon-link dropdown-toggle" data-toggle="dropdown">Mes services</p>
 
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a href="#" class="dropdown-item">Lien</a>
-
-            <a href="#" class="dropdown-item">Lien</a>
-
-            <a href="#" class="dropdown-item">Lien</a>
-
-            <a href="#" class="dropdown-item">Lien</a>
-
-            <a href="#" class="dropdown-item">Lien</a>
-
-            <a href="#" class="dropdown-item">Lien</a>
-          </div>
-
-
+          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+            <li><a href="/#offres-bloc">Tous mes services</a></li>
+            <li><a href="/youtube">Référencement YouTube</a></li>
+            <li><a href="/amazon">Référencement Amazon</a></li>
+            <li><a href="/seo">Stratégie SEO</a></li>
+            <li><a href="/sea">Stratégie SEA</a></li>
+            <li><a href="/socialmedia">Audit social Media</a></li>
+            <li><a href="creaweb">Création de sites web</a></li>
+          </ul>
         </div>
 
 
-
-
-
-
-
         <%= link_to "Mon parcours", "/parcours", class: "navbar-wagon-item navbar-wagon-link" %>
-        <%= link_to "Mes voyages", "#", class: "navbar-wagon-item navbar-wagon-link" %>
+
+        <%= link_to "Qui suis-je ?", "/#presentation", class: "navbar-wagon-item navbar-wagon-link" %>
+
         <%= link_to "Contactez-moi", "#", class: "btn btn-danger" %>
     </div>
 
@@ -48,7 +39,9 @@
           <li><a href="/#offres-bloc">Mes services</a></li>
 
           <li><a href="/parcours">Mon parcours</a></li>
-          <li><a href="#">Mes voyages</a></li>
+
+          <li><a href="/#presentation">Qui suis-je ?</a></li>
+
           <li><a href="#">Contactez-moi</a></li>
 
         </ul>

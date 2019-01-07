@@ -28,7 +28,11 @@
 .home-card:hover {
   cursor: pointer;
   box-shadow: 10px 10px 100px rgba(30, 30, 30, 0.4);
+  img {
+    width: 10px;
+  }
 }
+
 
 
 .card-up {
